@@ -217,6 +217,7 @@
         display:flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
     }
 
     section.Autos{
@@ -225,6 +226,22 @@
         grid-template-rows: 1fr 1fr;
         gap: 15px;
 
+    }
+
+    section.Producto{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p.Boton{
+        background-color:rgb(0,87,156);
+        width: 80px;
+        text-align: center;
+        color: whitesmoke;
+        padding: 6px;
+        border-radius: 3px;
     }
 
     footer{
